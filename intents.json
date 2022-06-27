@@ -14,7 +14,7 @@
       ],
       "responses": [
         "Hey :-)",
-        "Hello, thanks for visiting",
+        "Hello",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
@@ -39,11 +39,23 @@
         "Which items do you have?",
         "What kinds of items are there?",
         "What do you sell?",
-        "I'd like to buy something"
+        "I'd like to buy something",
+        "Can you please tell me the menu"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell Cold-Coffee,Tea,Brownie,Chocolicks,Frolicks,Smoothies,Thick Shake",
+        "We have Cold-Coffee,Tea,Brownie,Chocolicks,Frolicks,Smoothies,Thick Shake"
+      ]
+    },
+    {
+      "tag": "price",
+      "patterns": [
+        "What is the price?",
+        "I'd like to buy something, can you tell me the amount",
+        "Can you please tell me the amount"
+      ],
+      "responses": [
+        "Cold-Coffee - 70,Tea - 20,Brownie - 50,Chocolicks - 100,Frolicks - 110,Smoothies - 75,Thick Shake - 85"
       ]
     },
     {
